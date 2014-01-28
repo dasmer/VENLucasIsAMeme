@@ -16,11 +16,9 @@
 @property (weak, nonatomic) IBOutlet UITextField *thirdLineField;
 @property (weak, nonatomic) IBOutlet UIButton *shareButton;
 @property (weak, nonatomic) IBOutlet UIView *containerView;
-
 @property (strong,nonatomic) UIGestureRecognizer *tap;
 @property (strong,nonatomic) BSKeyboardControls *keyboardControls;
 @property (strong,nonatomic) NSArray *fields;
-
 @end
 
 @implementation VENViewController
@@ -34,12 +32,6 @@
     [self configureKeyboardAndFields];
     [self configureShareButton];
 
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Configuration Methods
@@ -57,8 +49,8 @@
     [self.shareButton setBackgroundColor:[UIColor venmoStandardColor]];
     [self.shareButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
 }
-#pragma mark - UITextField Delegate
 
+#pragma mark - UITextField Delegate
 - (BOOL)textFieldShouldEndEditing:(UITextField *)textField{
     [self.view removeGestureRecognizer:self.tap];
     return YES;
@@ -97,7 +89,6 @@
 }
 
 #pragma mark - Custom Selectors
-
 - (void) dropKeyboard{
     for ( UITextField *textField in self.fields){
         if ([textField isFirstResponder]){
