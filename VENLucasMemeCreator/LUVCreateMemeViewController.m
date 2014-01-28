@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Columbia University. All rights reserved.
 //
 
-#import "VENViewController.h"
+#import "LUVCreateMemeViewController.h"
 #import "UIColor+VenmoCustomColors.h"
-#import "UIView+Custom.h"
+#import "UIView+LUVImageRepresentation.h"
 
-@interface VENViewController ()
+@interface LUVCreateMemeViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *firstLineField;
 @property (weak, nonatomic) IBOutlet UITextField *secondLineField;
 @property (weak, nonatomic) IBOutlet UITextField *thirdLineField;
@@ -21,7 +21,7 @@
 @property (strong,nonatomic) NSArray *fields;
 @end
 
-@implementation VENViewController
+@implementation LUVCreateMemeViewController
 
 - (void)viewDidLoad
 {

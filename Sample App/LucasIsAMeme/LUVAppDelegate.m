@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Columbia University. All rights reserved.
 //
 
-#import "VENAppDelegate.h"
+#import "LUVAppDelegate.h"
 
-@implementation VENAppDelegate
+@implementation LUVAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

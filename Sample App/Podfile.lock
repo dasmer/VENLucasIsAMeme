@@ -1,0 +1,17 @@
+PODS:
+  - BSKeyboardControls (2.0)
+  - VENLucasMemeCreator (0.1.0)
+
+DEPENDENCIES:
+  - BSKeyboardControls
+  - VENLucasMemeCreator (from `../VENLucasMemeCreator/VENLucasMemeCreator.podspec`)
+
+EXTERNAL SOURCES:
+  VENLucasMemeCreator:
+    :path: ../VENLucasMemeCreator/VENLucasMemeCreator.podspec
+
+SPEC CHECKSUMS:
+  BSKeyboardControls: b24def9d769f0990d228abb4e525492cb68a2189
+  VENLucasMemeCreator: 2a084cfe4b6cdc53921854acb36bb1b0dd2d7be5
+
+COCOAPODS: 0.29.0

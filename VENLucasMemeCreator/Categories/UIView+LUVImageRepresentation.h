@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (Custom)
+@interface UIView (LUVImageRepresentation)
 
 - (UIImage *) imageRepresentation;
 

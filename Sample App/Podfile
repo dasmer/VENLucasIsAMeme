@@ -1,0 +1,7 @@
+platform :ios, '6.0'
+inhibit_all_warnings!
+
+target 'VENLucasIsAMeme', :exclusive => true do
+  pod 'BSKeyboardControls'
+  pod 'VENLucasMemeCreator', :path => '../VENLucasMemeCreator/VENLucasMemeCreator.podspec'
+end
