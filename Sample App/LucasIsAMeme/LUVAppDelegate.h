@@ -1,5 +1,5 @@
 //
-//  VENViewController.h
+//  VENAppDelegate.h
 //  LucasIsAMeme
 //
 //  Created by dasmer on 1/27/14.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BSKeyboardControls.h"
 
-@interface VENViewController : UIViewController <UITextFieldDelegate, BSKeyboardControlsDelegate>
+@interface LUVAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
