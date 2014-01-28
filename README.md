@@ -1,5 +1,6 @@
 VENLucasIsAMeme
 ===============
 
-An iOS Meme Generator for VenmoLucas
+An iOS Meme Generator for VenmoLucas <br \>
+
 ![image](tutorial.gif)
