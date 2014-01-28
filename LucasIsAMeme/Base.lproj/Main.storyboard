@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="VENViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gim-Zh-2UQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="fhV-RW-8IA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q3A-CU-2eC" userLabel="Container">
+                                <rect key="frame" x="0.0" y="142" width="320" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lucas1.png" translatesAutoresizingMaskIntoConstraints="NO" id="mki-Oz-Iod">
+                                        <rect key="frame" x="86" y="-9" width="234" height="302"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lucasTitle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Phe-nE-ifc">
+                                        <rect key="frame" x="11" y="10" width="113" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="has a" minimumFontSize="4" translatesAutoresizingMaskIntoConstraints="NO" id="zSZ-H6-1qz">
+                                        <rect key="frame" x="17" y="47" width="137" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="0.46752157859999999" green="0.46752157859999999" blue="0.46752157859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="19"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="generator" minimumFontSize="4" translatesAutoresizingMaskIntoConstraints="NO" id="Eqc-j1-fel">
+                                        <rect key="frame" x="17" y="87" width="137" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="0.46752157859999999" green="0.46752157859999999" blue="0.46752157859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="19"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="MEME" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="df5-wf-xUT">
+                                        <rect key="frame" x="17" y="68" width="137" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="19"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no"/>
+                                    </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="venmoLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="2WW-N5-xeF">
+                                        <rect key="frame" x="17" y="271" width="33" height="6"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YL5-fZ-1dq">
+                                <rect key="frame" x="0.0" y="427" width="320" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="SHARE MEME">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MxR-VA-pH7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="q3A-CU-2eC" secondAttribute="centerX" id="EJB-7t-d7J"/>
+                            <constraint firstItem="YL5-fZ-1dq" firstAttribute="top" secondItem="q3A-CU-2eC" secondAttribute="bottom" constant="-3" id="S7u-rm-dxR"/>
+                            <constraint firstAttribute="centerY" secondItem="q3A-CU-2eC" secondAttribute="centerY" id="i2e-32-tA7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="UeO-4w-G5P"/>
+                    <connections>
+                        <outlet property="containerView" destination="q3A-CU-2eC" id="LIK-3V-kXl"/>
+                        <outlet property="firstLineField" destination="zSZ-H6-1qz" id="qEU-ZC-jMK"/>
+                        <outlet property="secondLineField" destination="df5-wf-xUT" id="bQq-Pc-hYZ"/>
+                        <outlet property="shareButton" destination="YL5-fZ-1dq" id="2te-EQ-oVQ"/>
+                        <outlet property="thirdLineField" destination="Eqc-j1-fel" id="yaY-7v-Sba"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244" y="72"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lucas1.png" width="224" height="266"/>
+        <image name="lucasTitle.png" width="113" height="41"/>
+        <image name="venmoLogo.png" width="75" height="14"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

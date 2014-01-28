@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F228E43189720B2006F8363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F228E42189720B2006F8363 /* Foundation.framework */; };
+		2F228E45189720B2006F8363 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F228E44189720B2006F8363 /* CoreGraphics.framework */; };
+		2F228E47189720B2006F8363 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F228E46189720B2006F8363 /* UIKit.framework */; };
+		2F228E4D189720B2006F8363 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F228E4B189720B2006F8363 /* InfoPlist.strings */; };
+		2F228E4F189720B2006F8363 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F228E4E189720B2006F8363 /* main.m */; };
+		2F228E53189720B2006F8363 /* VENAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F228E52189720B2006F8363 /* VENAppDelegate.m */; };
+		2F228E56189720B2006F8363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F228E54189720B2006F8363 /* Main.storyboard */; };
+		2F228E59189720B2006F8363 /* VENViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F228E58189720B2006F8363 /* VENViewController.m */; };
+		2F228E5B189720B2006F8363 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F228E5A189720B2006F8363 /* Images.xcassets */; };
+		2F228E62189720B2006F8363 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F228E61189720B2006F8363 /* XCTest.framework */; };
+		2F228E63189720B2006F8363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F228E42189720B2006F8363 /* Foundation.framework */; };
+		2F228E64189720B2006F8363 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F228E46189720B2006F8363 /* UIKit.framework */; };
+		2F228E6C189720B2006F8363 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F228E6A189720B2006F8363 /* InfoPlist.strings */; };
+		2F228E6E189720B2006F8363 /* LucasIsAMemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F228E6D189720B2006F8363 /* LucasIsAMemeTests.m */; };
+		2F228E7C1897226A006F8363 /* lucas1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F228E7B1897226A006F8363 /* lucas1@2x.png */; };
+		2F228E7E189723E8006F8363 /* lucasTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F228E7D189723E8006F8363 /* lucasTitle@2x.png */; };
+		2F228E8218972826006F8363 /* BSKeyboardControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F228E8118972826006F8363 /* BSKeyboardControls.m */; };
+		2F228E8618972EFA006F8363 /* UIColor+VenmoCustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F228E8518972EFA006F8363 /* UIColor+VenmoCustomColors.m */; };
+		2F228E88189733C4006F8363 /* subway@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F228E87189733C4006F8363 /* subway@2x.jpg */; };
+		2F228E8B189737EA006F8363 /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F228E8A189737EA006F8363 /* UIView+Custom.m */; };
+		2F228E8D18973A3A006F8363 /* venmoLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F228E8C18973A3A006F8363 /* venmoLogo@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F228E65189720B2006F8363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F228E37189720B2006F8363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F228E3E189720B2006F8363;
+			remoteInfo = LucasIsAMeme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F228E3F189720B2006F8363 /* VENLucasIsAMeme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VENLucasIsAMeme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F228E42189720B2006F8363 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F228E44189720B2006F8363 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F228E46189720B2006F8363 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F228E4A189720B2006F8363 /* VENLucasIsAMeme-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VENLucasIsAMeme-Info.plist"; sourceTree = "<group>"; };
+		2F228E4C189720B2006F8363 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F228E4E189720B2006F8363 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F228E50189720B2006F8363 /* VENLucasIsAMeme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VENLucasIsAMeme-Prefix.pch"; sourceTree = "<group>"; };
+		2F228E51189720B2006F8363 /* VENAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VENAppDelegate.h; sourceTree = "<group>"; };
+		2F228E52189720B2006F8363 /* VENAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VENAppDelegate.m; sourceTree = "<group>"; };
+		2F228E55189720B2006F8363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F228E57189720B2006F8363 /* VENViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VENViewController.h; sourceTree = "<group>"; };
+		2F228E58189720B2006F8363 /* VENViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VENViewController.m; sourceTree = "<group>"; };
+		2F228E5A189720B2006F8363 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F228E60189720B2006F8363 /* VENLucasIsAMemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VENLucasIsAMemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F228E61189720B2006F8363 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2F228E69189720B2006F8363 /* VENLucasIsAMemeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VENLucasIsAMemeTests-Info.plist"; sourceTree = "<group>"; };
+		2F228E6B189720B2006F8363 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F228E6D189720B2006F8363 /* LucasIsAMemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LucasIsAMemeTests.m; sourceTree = "<group>"; };
+		2F228E7B1897226A006F8363 /* lucas1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lucas1@2x.png"; sourceTree = "<group>"; };
+		2F228E7D189723E8006F8363 /* lucasTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lucasTitle@2x.png"; sourceTree = "<group>"; };
+		2F228E8018972826006F8363 /* BSKeyboardControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKeyboardControls.h; sourceTree = "<group>"; };
+		2F228E8118972826006F8363 /* BSKeyboardControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKeyboardControls.m; sourceTree = "<group>"; };
+		2F228E8418972EFA006F8363 /* UIColor+VenmoCustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VenmoCustomColors.h"; sourceTree = "<group>"; };
+		2F228E8518972EFA006F8363 /* UIColor+VenmoCustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VenmoCustomColors.m"; sourceTree = "<group>"; };
+		2F228E87189733C4006F8363 /* subway@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "subway@2x.jpg"; sourceTree = "<group>"; };
+		2F228E89189737EA006F8363 /* UIView+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
+		2F228E8A189737EA006F8363 /* UIView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
+		2F228E8C18973A3A006F8363 /* venmoLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "venmoLogo@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F228E3C189720B2006F8363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F228E45189720B2006F8363 /* CoreGraphics.framework in Frameworks */,
+				2F228E47189720B2006F8363 /* UIKit.framework in Frameworks */,
+				2F228E43189720B2006F8363 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F228E5D189720B2006F8363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F228E62189720B2006F8363 /* XCTest.framework in Frameworks */,
+				2F228E64189720B2006F8363 /* UIKit.framework in Frameworks */,
+				2F228E63189720B2006F8363 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F228E36189720B2006F8363 = {
+			isa = PBXGroup;
+			children = (
+				2F228E48189720B2006F8363 /* LucasIsAMeme */,
+				2F228E67189720B2006F8363 /* LucasIsAMemeTests */,
+				2F228E41189720B2006F8363 /* Frameworks */,
+				2F228E40189720B2006F8363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F228E40189720B2006F8363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F228E3F189720B2006F8363 /* VENLucasIsAMeme.app */,
+				2F228E60189720B2006F8363 /* VENLucasIsAMemeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F228E41189720B2006F8363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F228E42189720B2006F8363 /* Foundation.framework */,
+				2F228E44189720B2006F8363 /* CoreGraphics.framework */,
+				2F228E46189720B2006F8363 /* UIKit.framework */,
+				2F228E61189720B2006F8363 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F228E48189720B2006F8363 /* LucasIsAMeme */ = {
+			isa = PBXGroup;
+			children = (
+				2F228E51189720B2006F8363 /* VENAppDelegate.h */,
+				2F228E52189720B2006F8363 /* VENAppDelegate.m */,
+				2F228E54189720B2006F8363 /* Main.storyboard */,
+				2F228E57189720B2006F8363 /* VENViewController.h */,
+				2F228E58189720B2006F8363 /* VENViewController.m */,
+				2F228E8418972EFA006F8363 /* UIColor+VenmoCustomColors.h */,
+				2F228E8518972EFA006F8363 /* UIColor+VenmoCustomColors.m */,
+				2F228E89189737EA006F8363 /* UIView+Custom.h */,
+				2F228E8A189737EA006F8363 /* UIView+Custom.m */,
+				2F228E831897282B006F8363 /* BSKeyboardControls */,
+				2F228E7F18972797006F8363 /* images */,
+				2F228E5A189720B2006F8363 /* Images.xcassets */,
+				2F228E49189720B2006F8363 /* Supporting Files */,
+			);
+			path = LucasIsAMeme;
+			sourceTree = "<group>";
+		};
+		2F228E49189720B2006F8363 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F228E4A189720B2006F8363 /* VENLucasIsAMeme-Info.plist */,
+				2F228E4B189720B2006F8363 /* InfoPlist.strings */,
+				2F228E4E189720B2006F8363 /* main.m */,
+				2F228E50189720B2006F8363 /* VENLucasIsAMeme-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F228E67189720B2006F8363 /* LucasIsAMemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F228E6D189720B2006F8363 /* LucasIsAMemeTests.m */,
+				2F228E68189720B2006F8363 /* Supporting Files */,
+			);
+			path = LucasIsAMemeTests;
+			sourceTree = "<group>";
+		};
+		2F228E68189720B2006F8363 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F228E69189720B2006F8363 /* VENLucasIsAMemeTests-Info.plist */,
+				2F228E6A189720B2006F8363 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F228E7F18972797006F8363 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2F228E8C18973A3A006F8363 /* venmoLogo@2x.png */,
+				2F228E87189733C4006F8363 /* subway@2x.jpg */,
+				2F228E7B1897226A006F8363 /* lucas1@2x.png */,
+				2F228E7D189723E8006F8363 /* lucasTitle@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		2F228E831897282B006F8363 /* BSKeyboardControls */ = {
+			isa = PBXGroup;
+			children = (
+				2F228E8118972826006F8363 /* BSKeyboardControls.m */,
+				2F228E8018972826006F8363 /* BSKeyboardControls.h */,
+			);
+			name = BSKeyboardControls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F228E3E189720B2006F8363 /* VENLucasIsAMeme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F228E71189720B2006F8363 /* Build configuration list for PBXNativeTarget "VENLucasIsAMeme" */;
+			buildPhases = (
+				2F228E3B189720B2006F8363 /* Sources */,
+				2F228E3C189720B2006F8363 /* Frameworks */,
+				2F228E3D189720B2006F8363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VENLucasIsAMeme;
+			productName = LucasIsAMeme;
+			productReference = 2F228E3F189720B2006F8363 /* VENLucasIsAMeme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F228E5F189720B2006F8363 /* VENLucasIsAMemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F228E74189720B2006F8363 /* Build configuration list for PBXNativeTarget "VENLucasIsAMemeTests" */;
+			buildPhases = (
+				2F228E5C189720B2006F8363 /* Sources */,
+				2F228E5D189720B2006F8363 /* Frameworks */,
+				2F228E5E189720B2006F8363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F228E66189720B2006F8363 /* PBXTargetDependency */,
+			);
+			name = VENLucasIsAMemeTests;
+			productName = LucasIsAMemeTests;
+			productReference = 2F228E60189720B2006F8363 /* VENLucasIsAMemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F228E37189720B2006F8363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VEN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Columbia University";
+				TargetAttributes = {
+					2F228E5F189720B2006F8363 = {
+						TestTargetID = 2F228E3E189720B2006F8363;
+					};
+				};
+			};
+			buildConfigurationList = 2F228E3A189720B2006F8363 /* Build configuration list for PBXProject "VENLucasIsAMeme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F228E36189720B2006F8363;
+			productRefGroup = 2F228E40189720B2006F8363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F228E3E189720B2006F8363 /* VENLucasIsAMeme */,
+				2F228E5F189720B2006F8363 /* VENLucasIsAMemeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F228E3D189720B2006F8363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F228E5B189720B2006F8363 /* Images.xcassets in Resources */,
+				2F228E4D189720B2006F8363 /* InfoPlist.strings in Resources */,
+				2F228E7C1897226A006F8363 /* lucas1@2x.png in Resources */,
+				2F228E7E189723E8006F8363 /* lucasTitle@2x.png in Resources */,
+				2F228E8D18973A3A006F8363 /* venmoLogo@2x.png in Resources */,
+				2F228E56189720B2006F8363 /* Main.storyboard in Resources */,
+				2F228E88189733C4006F8363 /* subway@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F228E5E189720B2006F8363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F228E6C189720B2006F8363 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F228E3B189720B2006F8363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F228E59189720B2006F8363 /* VENViewController.m in Sources */,
+				2F228E8B189737EA006F8363 /* UIView+Custom.m in Sources */,
+				2F228E8218972826006F8363 /* BSKeyboardControls.m in Sources */,
+				2F228E8618972EFA006F8363 /* UIColor+VenmoCustomColors.m in Sources */,
+				2F228E53189720B2006F8363 /* VENAppDelegate.m in Sources */,
+				2F228E4F189720B2006F8363 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F228E5C189720B2006F8363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F228E6E189720B2006F8363 /* LucasIsAMemeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F228E66189720B2006F8363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F228E3E189720B2006F8363 /* VENLucasIsAMeme */;
+			targetProxy = 2F228E65189720B2006F8363 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F228E4B189720B2006F8363 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F228E4C189720B2006F8363 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F228E54189720B2006F8363 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F228E55189720B2006F8363 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F228E6A189720B2006F8363 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F228E6B189720B2006F8363 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F228E6F189720B2006F8363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F228E70189720B2006F8363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F228E72189720B2006F8363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LucasIsAMeme/VENLucasIsAMeme-Prefix.pch";
+				INFOPLIST_FILE = "LucasIsAMeme/VENLucasIsAMeme-Info.plist";
+				PRODUCT_NAME = VENLucasIsAMeme;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F228E73189720B2006F8363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LucasIsAMeme/VENLucasIsAMeme-Prefix.pch";
+				INFOPLIST_FILE = "LucasIsAMeme/VENLucasIsAMeme-Info.plist";
+				PRODUCT_NAME = VENLucasIsAMeme;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2F228E75189720B2006F8363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LucasIsAMeme.app/LucasIsAMeme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LucasIsAMeme/LucasIsAMeme-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LucasIsAMemeTests/VENLucasIsAMemeTests-Info.plist";
+				PRODUCT_NAME = VENLucasIsAMemeTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2F228E76189720B2006F8363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LucasIsAMeme.app/LucasIsAMeme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LucasIsAMeme/LucasIsAMeme-Prefix.pch";
+				INFOPLIST_FILE = "LucasIsAMemeTests/VENLucasIsAMemeTests-Info.plist";
+				PRODUCT_NAME = VENLucasIsAMemeTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F228E3A189720B2006F8363 /* Build configuration list for PBXProject "VENLucasIsAMeme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F228E6F189720B2006F8363 /* Debug */,
+				2F228E70189720B2006F8363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F228E71189720B2006F8363 /* Build configuration list for PBXNativeTarget "VENLucasIsAMeme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F228E72189720B2006F8363 /* Debug */,
+				2F228E73189720B2006F8363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F228E74189720B2006F8363 /* Build configuration list for PBXNativeTarget "VENLucasIsAMemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F228E75189720B2006F8363 /* Debug */,
+				2F228E76189720B2006F8363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F228E37189720B2006F8363 /* Project object */;
+}
